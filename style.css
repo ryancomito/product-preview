@@ -26,23 +26,8 @@
 
 }
 
-h1 {
-  color: var(--dark-blue);
-  font-size: 2rem;
-}
-
-h2 {
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  font-weight: 500;
-}
-
-h2, .description, .old-price {
-  color: var(--gray-blue);
-}
-
 .container {
-  width: 80vw;
+  width: 92vw;
   background-color: white;
   border-radius: 1rem;
   overflow: hidden;
@@ -53,19 +38,43 @@ h2, .description, .old-price {
 }
 
 .text-container {
-  padding: 1rem;
+  padding: 1.2rem;
 }
+
+
+h1 {
+  color: var(--dark-blue);
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-weight: 500;
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+}
+
+h2, .description, .old-price {
+  color: var(--gray-blue);
+}
+
+.description {
+  padding-top: 0.2rem;
+}
+
 
 .perfume-image-mobile {
   width: inherit;
   height: inherit;
-  overflow: hidden;
 }
 
 .prices {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  padding: 2.5rem 0 1rem 0;
 }
 
 .sale-price {
@@ -84,7 +93,7 @@ button {
   align-items: center;
   background-color: var(--dark-cyan);
   width: 100%;
-  border-radius: 0.8rem;
+  border-radius: 0.5rem;
   border: none;
 }
 
