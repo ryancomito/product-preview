@@ -37,6 +37,7 @@
 
 .image-container {
   width: inherit;
+  height: inherit;
 }
 
 .text-container {
@@ -66,6 +67,9 @@ h2, .description, .old-price {
   padding-top: 0.2rem;
 }
 
+.perfume-image-desktop {
+  display: none;
+}
 
 .perfume-image-mobile {
   width: inherit;
@@ -102,4 +106,22 @@ button {
 button>p {
   color: white;
   padding: 1rem;
+}
+
+@media (min-width: 700px) {
+  .perfume-image-mobile {
+    display: none;
+  }
+
+  .perfume-image-desktop {
+    display: inline;
+    height: inherit;
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+  }
 }
