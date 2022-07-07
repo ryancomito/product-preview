@@ -113,9 +113,19 @@ button>p {
     display: none;
   }
 
+  .image-container {
+    width: 100%;
+  }
+
+  .text-container {
+    width: 100%;
+    /* height: 80%; */
+  }
+
   .perfume-image-desktop {
     display: inline;
-    height: inherit;
+    height: 100%;
+    width: 100%;
   }
 
   .container {
@@ -123,5 +133,6 @@ button>p {
     justify-content: center;
     align-items: center;
     width: 50vw;
+    height: 40vh;
   }
 }
